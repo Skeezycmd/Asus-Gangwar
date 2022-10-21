@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'GilRoyBold';
+  src: url(fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoySemiBold';
+  src: url(fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoyMedium';
+  src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoyExtra';
+  src: url(fonts/Gilroy-ExtraBold.ttf);
+}
+
+body {
+  user-select: none;
+  background: #1e1e1e;
+}
+
+::-webkit-input-placeholder {
+  color:white;
+}
+
+body {
+  user-select: none;
+}
+
+.bdy2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 41vh;
+  top: 50%;
+  left: 50%;
+  background-color: #19191C;
+  border-radius: 20px;
+}
+
+.background {
+  background-image: url(images/rec.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.input100 {
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  background-color: #141416;
+  transform: translate(-50%, -50%);
+  top: 37%;
+  left: 50%;
+  border:none;
+  border-radius: 10px;
+  width: 66%;
+  height: 12.5%;
+  font-size: 130%;
+  padding: 3%;
+  color: white;
+}
+
+.input100:focus {
+  outline: none;
+}
+
+.obentext {
+  position: absolute;
+  font-family: 'GilRoySemiBold', arial;
+  transform: translate(-50%, -50%);
+  top: 23%;
+  left: 32%;
+  font-size: 80%;
+  color:white;
+  opacity: 25%;
+  width: 57%;
+}
+
+.untentext {
+  position: absolute;
+  font-family: 'GilRoySemiBold', arial;
+  transform: translate(-50%, -50%);
+  top: 76%;
+  left: 46%;
+  font-size: 80%;
+  color:white;
+  opacity: 25%;
+  width: 57%;
+}
+
+.anmeldungtext {
+  position: absolute;
+  font-family: 'GilRoyMedium', arial;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 33%;
+  font-size: 230%;
+  color:white;
+  width: 57%;
+}
+
+.unteranmeldung {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 14.5%;
+  left: 19.5%;
+  width: 30%;
+}
+
+.loginbutton {
+  position: absolute;
+  font-family: 'GilRoyExtra', arial;
+  background-image: linear-gradient(180deg, #0066FF 0%, #168DB5 100%);;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+  border:none;
+  border-radius: 10px;
+  width: 66%;
+  height: 12%;
+  font-size: 160%;
+  color:white;
+}
+
+.loginbutton:hover{
+  background-image: linear-gradient(180deg, #008cff 0%, #16b0b5 100%);;
+}
+
+.loginbutton:focus {
+  outline:none
+}
+
+.registerbutton {
+  position: absolute;
+  font-family: 'GilRoyExtra', arial;
+  background-image: linear-gradient(180deg, #0051ff 0%, #1675b5 50%);;
+  transform: translate(-50%, -50%);
+  top: 89%;
+  left: 50%;
+  border:none;
+  border-radius: 10px;
+  width: 66%;
+  height: 13%;
+  font-size: 160%;
+  color:white;
+  opacity: 75%;
+}
+
+.registerbutton:hover{
+  background-image: linear-gradient(180deg, #008cff 0%, #16b0b5 100%);;
+}
+
+.registerbutton:focus {
+  outline:none
+}
+
+.oderline1 {
+  position: absolute;
+  background-image: linear-gradient(180deg, #0044ff 0%, #168DB5 100%);;
+  transform: translate(-50%, -50%);
+  top: 66.9%;
+  left: 25%;
+  border-radius: 10px;
+  width: 35%;
+  height: 0.7%;
+}
+
+.oderline2 {
+  position: absolute;
+  background-image: linear-gradient(180deg, #0066FF 0%, #168DB5 100%);;
+  transform: translate(-50%, -50%);
+  top: 66.9%;
+  left: 75%;
+  border-radius: 10px;
+  width: 35%;
+  height: 0.7%;
+}
+
+.oder{
+  position: absolute;
+  font-family: 'GilRoySemiBold', arial;
+  transform: translate(-50%, -50%);
+  top: 72%;
+  left: 78%;
+  width: 66%;
+  height: 14%;
+  font-size: 130%;
+  color:white;
+}
+
+.discordpng {
+  position: absolute;
+  background: #141416; 
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 92%;
+  border-radius: 10px;
+  padding: 2%;
+}

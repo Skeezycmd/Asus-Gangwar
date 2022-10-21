@@ -1,0 +1,43 @@
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  @font-face {
+    font-family: 'PoppinsMedium';
+    src: url(fonts/Poppins-Medium.otf);
+}
+
+#speed_text {
+    font-family: 'PoppinsMedium', sans-serif;
+    color:white;
+    padding: 0%;
+    font-size: 156%;
+    margin: 7px auto;
+    margin-left: 56px;
+    user-select: none
+}
+
+.speedoimg {
+    position: absolute;
+    width: 32px;
+    height: 20px;
+    margin: 14px auto;
+    margin-left: 11px;
+    user-select: none
+}
+
+.speedometer {
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 100px;
+    height: 51px;
+    background: #1e1e1e;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    opacity: 80%;
+    left: 50%;
+    bottom: 3vh;
+  }
+

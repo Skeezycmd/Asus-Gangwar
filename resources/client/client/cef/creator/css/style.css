@@ -1,0 +1,134 @@
+*{
+    user-select: none;
+    overflow: hidden;
+}
+
+.container-charcreator {
+    position: absolute;
+    background-color: #1e1e1e;
+    left: 1vw;
+    top: 1vw;
+    width: 20vw;
+    height: 25vw;
+    border-radius: 0.1vw;
+}
+
+.container-charcreator-sub{
+    position: absolute;
+    background-color: #1e1e1e;
+    right: 1vw;
+    top: 1vw;
+    width: 20vw;
+    height: 25.35vw;
+    border-radius: 0.2vw;
+    display: none;
+}
+
+.container-topbar{
+    background-color: #1e1e1e;
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    width: 20vw;
+    height: 2vw;
+    border-top-left-radius: 0.3vw;
+    border-top-right-radius: 0.3vw;
+    text-align: center;
+}
+
+.container-topbar-label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    line-height: 2vw;
+}
+
+.container-kategoriebox{
+    position: absolute;
+    left: 0vw;
+    top: 2vw;
+    width: 20vw;
+    height: 38vw;
+    background: transparent;
+}
+
+.container-kategoriebox-item{
+    position: relative;
+    margin-top: 0vw;
+    top: 0vw;
+    left: 0vw;
+    width: 20vw;
+    height: 2vw;
+    color: white;
+    text-align: left;
+    padding-left: 0.5vw;
+    line-height: 2vw;
+    border-bottom: transparent 0.125vw solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 0.8vw;
+}
+
+.fa-plus-square{
+    color: white;
+    position: absolute;
+    right: 1vw;
+    top: 0.625vw;
+    font-size: 1vw;
+}
+
+.sbtab{
+    position: absolute;
+    left: 0vw;
+    top: 2vw;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.genderbutton{
+    position: relative;
+    display: inline-block;
+    margin-top: 0vw;
+    margin-right: 2vw;
+    left: 6.25vw;
+    top: 1.5vw;
+    width: 3vw;
+    height: 3vw;
+    border: transparent;
+    border-radius: 0.1vw;
+    background: #1e1e1e;
+    outline: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.genderbutton:hover {
+    background: #4b4b4b;
+    transition: 1s;
+}
+
+.container-button-charcreator{
+    position: absolute;
+    left: 1vw;
+    top: 24.15vw;
+    height: 2vw;
+    width: 20vw;
+    background-color: #1e1e1e;
+    border: transparent;
+    border-bottom-left-radius: 0.2vw;
+    border-bottom-right-radius: 0.2vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    outline: none;
+    font-size: 0.8vw;
+}
+
+.container-button-charcreator:hover{
+    transition: 0.5s;
+    background-color: #4b4b4b;
+}

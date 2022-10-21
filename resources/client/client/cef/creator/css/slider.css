@@ -1,0 +1,40 @@
+.slidecontainer
+{
+    width: 15vw;
+
+}
+  
+.slider 
+{
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: transparent;
+    border-bottom: #ffffff 0.125vw solid;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover 
+{
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb 
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5vw;
+    height: 0.5vw;
+    background: #ffffff;
+}
+  
+.slider::-moz-range-thumb 
+{
+    width: 1.5vw;
+    height: 0.5vw;
+    background: #ffffff;
+}

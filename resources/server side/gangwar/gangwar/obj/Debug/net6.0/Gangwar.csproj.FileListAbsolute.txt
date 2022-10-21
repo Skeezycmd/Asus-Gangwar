@@ -1,0 +1,168 @@
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.exe
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.deps.json
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.runtimeconfig.json
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.pdb
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.CApi.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Client.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Client.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.EntitySync.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.EntitySync.ServerEvent.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Interactions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Resources.Chat.Api.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Shared.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Commands.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Core.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Interactions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Rest.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Webhook.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.WebSocket.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Interactive.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Linq.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Reactive.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.AssemblyReference.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.AssemblyInfoInputs.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.AssemblyInfo.cs
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.CopyComplete
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\refint\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.pdb
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.genruntimeconfig.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\AureaRoleplay-Main\crimelife\Crimelife\obj\Debug\net6.0\ref\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.exe
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.deps.json
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.runtimeconfig.json
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.pdb
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.CApi.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Client.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Client.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.EntitySync.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.EntitySync.ServerEvent.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Interactions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Resources.Chat.Api.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Shared.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Commands.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Core.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Interactions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Rest.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Webhook.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.WebSocket.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Interactive.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Linq.Async.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Reactive.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.AssemblyReference.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.AssemblyInfoInputs.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.AssemblyInfo.cs
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.CopyComplete
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\refint\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.pdb
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.genruntimeconfig.cache
+C:\Users\SkeezyChefo\Desktop\Aurea Roleplay\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\ref\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.exe
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.deps.json
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.runtimeconfig.json
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Gangwar.pdb
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Async.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.CApi.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Client.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Client.Async.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.EntitySync.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.EntitySync.ServerEvent.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Interactions.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Resources.Chat.Api.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\AltV.Net.Shared.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Commands.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Core.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Interactions.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Rest.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.Webhook.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Discord.Net.WebSocket.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Interactive.Async.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Linq.Async.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Reactive.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.AssemblyReference.cache
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.AssemblyInfoInputs.cache
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.AssemblyInfo.cs
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.csproj.CopyComplete
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\refint\Gangwar.dll
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.pdb
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\Gangwar.genruntimeconfig.cache
+C:\Users\SkeezyChefo\Desktop\Development\ArschWurstGangwar\resources\Main\crimelife\Crimelife\obj\Debug\net6.0\ref\Gangwar.dll

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/383d1a29e0.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+
+<div class="speedometer">
+<img src="speedoimg.png" class="speedoimg">
+<div id="speed_text">0</div>
+
+</div>
+
+</body>
+<script>
+	alt.on("updateSpeed", setSpeed)
+	let margin = 30,
+		width = 250;
+
+	function toRadians (angle)
+	{
+		return angle * (Math.PI / 180);
+	}
+	
+	function setSpeed(speed)
+	{
+		let speed2 = speed;
+		if(speed < 0.0) speed = 0.0;
+		speed2 = speed;
+
+		let rotation = -45.0 + ((speed2 * 270.0));
+		document.getElementById("speed_text").innerHTML = Number((speed).toFixed(0));
+	}
+
+</script>
+</html>

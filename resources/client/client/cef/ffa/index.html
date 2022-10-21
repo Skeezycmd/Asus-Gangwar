@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/383d1a29e0.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="ffatext">Paintball</h1>
+        <div class="rectengle1"></div>
+        <h1 class="infotext">... hier kannst du dir je nach Wunsch deine beliebige 
+            Arena aussuchen oder ein eigenes Gebiet erstellen. </h1>
+
+            <img class="closebutton" src="img/unknown.png" onclick="closeffa()">
+
+        <img class="würfelpark" src="img/test.png">
+        <button type='button' class="erstellen1" onclick="chooseFFA(1)">BEITRETEN</button>
+        <div id="mitgliederzahl1">0 Spieler</div>
+        <div class="memberzahlbackground1"></div>
+
+        <img class="kirche" src="img/kirche.png">
+        <button type='button' class="erstellen2" onclick="chooseFFA(6)">BEITRETEN</button>
+        <div id="mitgliederzahl2">0 Spieler</div>
+        <div class="memberzahlbackground2"></div>
+
+        <img class="lcn" src="img/LCN.png">
+        <button type='button' class="erstellen3" onclick="chooseFFA(3)">BEITRETEN</button>
+        <div id="mitgliederzahl3">0 Spieler</div>
+        <div class="memberzahlbackground3"></div>
+
+        <img class="orga" src="img/Dorf.png">
+        <button type='button' class="erstellen4" onclick="chooseFFA(4)">BEITRETEN</button>
+        <div id="mitgliederzahl4">0 Spieler</div>
+        <div class="memberzahlbackground4"></div>
+
+        <img class="triaden" src="img/triaden.png">
+        <button type='button' class="erstellen5" onclick="chooseFFA(5)">BEITRETEN</button>
+        <div id="mitgliederzahl5">0 Spieler</div>
+        <div class="memberzahlbackground5"></div>
+
+        <img class="skaterpark" src="img/Skaterpark.png">
+        <button type='button' class="erstellen6" onclick="chooseFFA(2)">BEITRETEN</button>
+        <div id="mitgliederzahl6">0 Spieler</div>
+        <div class="memberzahlbackground6"></div>
+
+        <div class="oderline1"></div>
+        <div class="oderline2"></div>
+        <h1 class="oder">ODER</h1>
+
+        <h1 class="infotext2">... möchtest du dir mit deinen Freunden 
+            deine eigene Arena erstellen.</h1>
+
+        <button type='button' class="privatffa" onclick="Register()">
+            ARENA ERSTELLEN (SOON)
+        </button>
+
+    </div>
+</body>
+
+<script>
+    
+    function chooseFFA(ffa){
+        alt.emit("FFA:ChooseFFA", ffa);
+        alt.emit("FFA:close");
+    }
+
+    function closeffa(){
+        alt.emit("FFA:close");
+    }
+
+    if ('alt' in window) {
+        alt.on('setFfaCount', (FFA1Count, FFA2Count, FFA3Count, FFA4Count, FFA5Count, FFA6Count) => {
+            $('#mitgliederzahl1').text(FFA1Count + "/10 Spieler");
+            $('#mitgliederzahl2').text(FFA6Count + "/10 Spieler");
+            $('#mitgliederzahl3').text(FFA3Count + "/10 Spieler");
+            $('#mitgliederzahl4').text(FFA4Count + "/10 Spieler");
+            $('#mitgliederzahl5').text(FFA5Count + "/10 Spieler");
+            $('#mitgliederzahl6').text(FFA2Count + "/10 Spieler");
+        });
+    }
+
+</script>

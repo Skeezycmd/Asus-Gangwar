@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/383d1a29e0.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./index.js"></script>
+
+</head>
+    <div class="background">
+
+    </div>
+
+    <h1 class="fraktextlol">Fraktionsauswahl</h1>
+    <div class="oberline2"></div>
+    <h1 class="obentext">... hier kannst du dich per einfachen Klick 
+        in die gewünschte Fraktion einloggen.</h1>
+
+        <div class="oderline1"></div>
+        <div class="oderline2"></div>
+        <h1 class="oder">ODER</h1>
+
+        <button type='button' class="privatfraksbutton">
+            PRIVATE FRAKTION (SOON)
+        </button>
+
+        <img class="madrazo" src="img/madrazo.PNG" onclick="selectTeam(3)">
+        <img class="yardies" src="img/yardies.PNG" onclick="selectTeam(4)">
+        <img class="grove" src="img/grove.PNG" onclick="selectTeam(5)">
+        <img class="aztecas" src="img/aztecas.PNG" onclick="selectTeam(2)">
+        <img class="hoover" src="img/hoover.PNG" onclick="selectTeam(6)">
+
+        <img class="rifa" src="img/rifa.PNG" onclick="selectTeam(7)">
+        <img class="lostmc" src="img/lost.PNG" onclick="selectTeam(8)">
+        <img class="cam" src="img/camorra.PNG" onclick="selectTeam(9)">
+        <img class="rednecks" src="img/rednecks.PNG" onclick="selectTeam(10)">
+        <img class="ballas" src="img/ballas.PNG" onclick="selectTeam(1)">
+
+        <div id="orgapop">0</div>
+        <div id="ykzpop">0</div>
+        <div id="grovepop">0</div>
+        <div id="aztecaspop">0</div>
+        <div id="hooverpop">0</div>
+        <div id="lcnpop">0</div>
+        <div id="lostpop">0</div>
+        <div id="triadenpop">0</div>
+        <div id="bloodspop">0</div>
+        <div id="ballaspop">0</div>
+</body>
+
+<script>
+    
+    function closez()
+    {
+        alt.emit("teamauswahl:close");
+    }
+    
+</script>

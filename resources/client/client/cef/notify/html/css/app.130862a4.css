@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'GilRoyBold';
+	src: url(fonts/Gilroy-Bold.ttf);
+  }
+  
+  @font-face {
+	font-family: 'GilRoySemiBold';
+	src: url(fonts/Gilroy-SemiBold.ttf);
+  }
+  
+  @font-face {
+	font-family: 'GilRoyExtraBold';
+	src: url(fonts/Gilroy-ExtraBold.ttf);
+  }
+
+  @font-face {
+	font-family: 'GilRoyMedium';
+	src: url(fonts/GilRoyMedium.ttf);
+  }
+
+  body {
+	user-select: none;
+  }
+
+.notification-slide-enter-from[data-v-a019ed8c],.notification-slide-leave-to[data-v-a019ed8c]
+{
+	opacity:0;
+	transform:translateX(100%)
+}
+.notification-slide-enter-to[data-v-a019ed8c],.notification-slide-leave-from[data-v-a019ed8c]
+{
+	opacity:1;
+	transform:translateX(0)
+}
+.notification-slide-enter-active[data-v-a019ed8c],.notification-slide-leave-active[data-v-a019ed8c]
+{
+	transition:all .4s ease
+}
+.notification[data-v-a019ed8c]
+{
+	display:flex;
+	flex-direction:column;
+	width:26vh;
+	min-height:70px;
+	background:#0000009f;
+	border-radius:5px;
+	margin-top:3vh;
+	margin-left: 0vh;
+	font-family: 'GilRoyMedium', arial;
+}
+.notification-icon[data-v-a019ed8c]
+{
+	position:absolute;
+	width:0.8vh;
+	height:0.8vh;
+	margin-left:3vh;
+	margin-top:3.3vh;
+	border-radius:50%;
+}
+.icon[data-v-a019ed8c]
+{
+	position:absolute;
+	width:3.25vh;
+	height:3.25vh;
+	transform:translate(-50%,-50%);
+	font-size:.5vw
+}
+.notification-body[data-v-a019ed8c]
+{
+	position:relative;
+	width:76%;
+	min-height:50px;
+	border-radius:0 4px 4px 0;
+	margin-left:6vh;
+	margin-top:-0.4vh;
+	color:#fff
+}
+.body-title[data-v-a019ed8c]
+{
+	font-size:18px;
+	font-weight:600
+}
+.body-message[data-v-a019ed8c]
+{
+	font-size: 1.8vh;
+	font-weight:400;
+	word-wrap:break-word
+}
+	@font-face
+{
+	font-family:Poppins;
+	src:url(../fonts/poppins.86a2f13e.ttf) format("truetype")
+}
+	#app
+{
+	font-family:Poppins,sans-serif
+}
+.notification-container
+{
+	width:20vw;
+	max-height:20vh;
+	top:3.5vh;
+}
+

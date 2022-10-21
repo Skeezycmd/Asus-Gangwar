@@ -1,0 +1,539 @@
+<html>
+    <head>
+        <title>Charcreator</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/slider.css">
+        <script src="./js/app.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container-charcreator">
+            <div class="container-topbar">
+                <label class="container-topbar-label">Charakter Erstellung</label>
+            </div>
+            <div class="container-kategoriebox">
+                <div class="container-kategoriebox-item"><label>Geschlecht und Eltern</label><i class="fas fa-plus-square" id="genderbtn" onclick="selectTab('genderbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Gesicht</label><i class="fas fa-plus-square" id="facebtn" onclick="selectTab('facebtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Frisur</label><i class="fas fa-plus-square" id="hairbtn" onclick="selectTab('hairbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Haarfarbe</label><i class="fas fa-plus-square" id="haricolorbtn" onclick="selectTab('haricolorbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Augenfarbe</label><i class="fas fa-plus-square" id="eyecolorbtn" onclick="selectTab('eyecolorbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Augenbrauen</label><i class="fas fa-plus-square" id="eyebrowbtn" onclick="selectTab('eyebrowbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Alter</label><i class="fas fa-plus-square" id="agebtn" onclick="selectTab('agebtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Make Up</label><i class="fas fa-plus-square" id="makeupbtn" onclick="selectTab('makeupbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Blush</label><i class="fas fa-plus-square" id="blushbtn" onclick="selectTab('blushbtn')"></i></div>
+                <div class="container-kategoriebox-item"><label>Lippenstift</label><i class="fas fa-plus-square" id="lipstickbtn" onclick="selectTab('lipstickbtn')"></i></div>
+            </div>
+        </div>
+
+        <div class="container-charcreator-sub" id="subtab">
+            <div class="container-topbar">
+                <label class="container-topbar-label" id="subtabname">{Tabname}</label>
+            </div>
+
+            <div class="sbtab" id="genderbtn-tab">
+                <button class="genderbutton" onclick="changegender('mp_m_freemode_01')"><i class="fas fa-male"></i></button>
+                <button class="genderbutton" onclick="changegender('mp_f_freemode_01')"><i class="fas fa-female"></i></button>
+
+                <label style="position: absolute;left: 1vw;top: 5.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Eltern</label>
+                <label style="position: absolute;left: 1vw;top: 8vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Mutter</label>
+                <div style="position: absolute;left: 2.5vw;top: 9vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="21" value="0" step="1" class="slider" id="parentsmotherrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 11vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Vater</label>
+                <div style="position: absolute;left: 2.5vw;top: 12vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="23" value="0" step="1" class="slider" id="parentsfatherrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 14vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">&Auml;hnlichkeit</label>
+                <div style="position: absolute;left: 2.5vw;top: 15vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0.0" max="1.0" step="0.05" value="0.5" class="slider" id="shapemixrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 17vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Hautfarbe</label>
+                <div style="position: absolute;left: 2.5vw;top: 18vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="12" value="6" step="1" class="slider" id="skincolorrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="headformbtn-tab">
+
+            </div>
+
+            <div class="sbtab" id="facebtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Nase</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Nasenbreite</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="nosewidthrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 6.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Nasenh&ouml;he</label>
+                <div style="position: absolute;left: 2.5vw;top: 7.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="noseheighthrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 9.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Nasenl&auml;nge</label>
+                <div style="position: absolute;left: 2.5vw;top: 10.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="noselengthrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 12.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Nasenbr&uuml;cke</label>
+                <div style="position: absolute;left: 2.5vw;top: 13.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="nosebridgerange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 15.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Nasenspitze</label>
+                <div style="position: absolute;left: 2.5vw;top: 16.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="nosetiprange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 18.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Nasenbr&uuml;ckenverschiebung</label>
+                <div style="position: absolute;left: 2.5vw;top: 19.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="nosebridgeshiftrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 22vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Augen & Augenbrauen</label>
+                <label style="position: absolute;left: 1vw;top: 24.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Augenbrauen h&ouml;he</label>
+                <div style="position: absolute;left: 2.5vw;top: 25.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="eyebrowheightrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 27.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Augenbrauen breite</label>
+                <div style="position: absolute;left: 2.5vw;top: 28.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="eyebrowwidthrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 30.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Augen</label>
+                <div style="position: absolute;left: 2.5vw;top: 31.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="eyerange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 34vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Hals & Lippen</label>
+                <label style="position: absolute;left: 1vw;top: 36.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Lippen Dicke</label>
+                <div style="position: absolute;left: 2.5vw;top: 37.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="lipsrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 39.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Halsbreite</label>
+                <div style="position: absolute;left: 2.5vw;top: 40.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="1" value="0" step="0.01" class="slider" id="neckwidthrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="hairbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Haare und B&auml;rte</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Haare</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="75" value="0" step="1" class="slider" id="hairrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 6.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Bart</label>
+                <div style="position: absolute;left: 2.5vw;top: 7.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="28" value="-1" step="1" class="slider" id="bartrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="haricolorbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Haarfarben</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Haarfarbe</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="63" value="0" step="1" class="slider" id="haircolorrange">
+                    </div>
+                </div>
+                <label style="position: absolute;left: 1vw;top: 6.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Bartfarbe</label>
+                <div style="position: absolute;left: 2.5vw;top: 7.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="63" value="0" step="1" class="slider" id="bartcolorrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="eyecolorbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Augenfarbe</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Augenfarbe</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="33" value="0" step="1" class="slider" id="eyecolorrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="eyebrowbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Augenbrauen</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Augenbrauen</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="33" value="0" step="1" class="slider" id="eyebrowrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="agebtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Alter</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">&Auml;lterung</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="14" value="0" step="1" class="slider" id="ageingrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="makeupbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">MakeUp</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">MakeUp</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="74" value="0" step="1" class="slider" id="makeuprange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="blushbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Blush</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Blush</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="32" value="0" step="1" class="slider" id="blushrange">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sbtab" id="lipstickbtn-tab">
+                <label style="position: absolute;left: 1vw;top: 1vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bolder;font-size: 1vw;">Lippenstift</label>
+                <label style="position: absolute;left: 1vw;top: 3.5vw;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 100;font-size: 0.8vw;">Lippenstift</label>
+                <div style="position: absolute;left: 2.5vw;top: 4.5vw;">
+                    <div class="slidecontainer">
+                        <input type="range" min="-1" max="9" value="0" step="1" class="slider" id="lipstickrange">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="container-button-charcreator" onclick="create()">Erstellen</button>
+    </body>
+    <script>
+    //Geschlecht und Eltern
+    var fathersID = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 42, 43, 44];
+    var mothersID = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 45];
+
+    let gender = "mp_m_freemode_01";
+    let mother = 21;
+    let father = 0;
+    let skinColor = 6;
+    let shapeMix = 0.5;
+
+    function changegender(gendername)
+    {
+        gender = gendername;
+        alt.emit("Changegender", gendername);
+    }
+
+    function updateParents()
+    {
+        alt.emit("UpdateParents", mother, father, skinColor, shapeMix);
+    }
+
+    var motherslider = document.getElementById("parentsmotherrange");
+    motherslider.oninput = function() {
+        mother = mothersID[this.value];
+        updateParents();
+    }
+
+    var fatherslider = document.getElementById("parentsfatherrange");
+    fatherslider.oninput = function() {
+        father = fathersID[this.value];
+        updateParents();
+    }
+
+    var shapemixslider = document.getElementById("shapemixrange");
+    shapemixslider.oninput = function() {
+        shapeMix = this.value;
+        updateParents();
+    }
+
+    var skincolorslider = document.getElementById("skincolorrange");
+    skincolorslider.oninput = function() {
+        skinColor = this.value;
+        updateParents();
+    }
+    //Ende
+
+    //Gesicht
+    let nasenbreite = 0;
+    let nasenhoehe = 0;
+    let nasenlaenge = 0;
+    let nasenbruecke = 0;
+    let nasenspitze = 0;
+    let nasenbrueckenverschiebung = 0;
+    let augenbrauenhoehe = 0;
+    let augenbrauenbreite = 0;
+    let augen = 0;
+    let lippen = 0;
+    let nackenbreite = 0;
+
+    function updateFace()
+    {
+        alt.emit("UpdateFace", nasenbreite, nasenhoehe, nasenlaenge, nasenbruecke, nasenspitze, nasenbrueckenverschiebung, augenbrauenhoehe, augenbrauenbreite, augen, lippen, nackenbreite)
+    }
+
+    var nosewidthslider = document.getElementById("nosewidthrange");
+    nosewidthslider.oninput = function() {
+        nasenbreite = this.value;
+        updateFace();
+    }
+
+    var noseheightslider = document.getElementById("noseheighthrange");
+    noseheightslider.oninput = function() {
+        nasenhoehe = this.value;
+        updateFace();
+    }
+
+    var nasenlaengeslider = document.getElementById("noselengthrange");
+    nasenlaengeslider.oninput = function() {
+        nasenlaenge = this.value;
+        updateFace();
+    }
+
+    var nasenbrueckeslider = document.getElementById("nosebridgerange");
+    nasenbrueckeslider.oninput = function() {
+        nasenbruecke = this.value;
+        updateFace();
+    }
+
+    var nasenspitzeslider = document.getElementById("nosetiprange");
+    nasenspitzeslider.oninput = function() {
+        nasenspitze = this.value;
+        updateFace();
+    }
+
+    var nasenbrueckenverschiebungslider = document.getElementById("nosebridgeshiftrange");
+    nasenbrueckenverschiebungslider.oninput = function() {
+        nasenbrueckenverschiebung = this.value;
+        updateFace();
+    }
+
+    var augenbrauenhoeheslider = document.getElementById("eyebrowheightrange");
+    augenbrauenhoeheslider.oninput = function() {
+        augenbrauenhoehe = this.value;
+        updateFace();
+    }
+
+    var augenbrauenbreiteslider = document.getElementById("eyebrowwidthrange");
+    augenbrauenbreiteslider.oninput = function() {
+        augenbrauenbreite = this.value;
+        updateFace();
+    }
+
+    var augenslider = document.getElementById("eyerange");
+    augenslider.oninput = function() {
+        augen = this.value;
+        updateFace();
+    }
+
+    var lippenslider = document.getElementById("lipsrange");
+    lippenslider.oninput = function() {
+        lippen = this.value;
+        updateFace();
+    }
+
+    var nackenbreiteslider = document.getElementById("neckwidthrange");
+    nackenbreiteslider.oninput = function() {
+        nackenbreite = this.value;
+        updateFace();
+    }
+    //Ende
+
+    //Frisur
+    let haare = 0;
+    let bart = -1;
+
+    function updateFrisur()
+    {
+        updateParents();
+        alt.emit("UpdateFrisur", haare, bart, haarfarbe, bartfarbe);
+    }
+
+    var haareslider = document.getElementById("hairrange");
+    haareslider.oninput = function() {
+        haare = this.value;
+        updateFrisur();
+    }
+
+    var bartslider = document.getElementById("bartrange");
+    bartslider.oninput = function() {
+        bart = this.value;
+        updateFrisur();
+    }
+    //Ende
+
+    //Haarfarbe
+    let haarfarbe = 0;
+    let bartfarbe = 0;
+
+    function updateFrisurFarbe()
+    {
+        alt.emit("UpdateFrisurFarbe", haarfarbe, bartfarbe);
+    }
+
+    var haarfarbeslider = document.getElementById("haircolorrange");
+    haarfarbeslider.oninput = function() {
+        haarfarbe = this.value;
+        updateFrisurFarbe();
+    }
+
+    var bartfarbeslider = document.getElementById("bartcolorrange");
+    bartfarbeslider.oninput = function() {
+        bartfarbe = this.value;
+        updateFrisurFarbe();
+    }
+    //Ende
+
+    //Augenfarbe
+    let augenfarbe = 0;
+
+    function updateAugenfarbe()
+    {
+        alt.emit("UpdateEyeColor", augenfarbe);
+    }
+
+    var augenfarbeslider = document.getElementById("eyecolorrange");
+    augenfarbeslider.oninput = function() {
+        augenfarbe = this.value;
+        updateAugenfarbe();
+    }
+
+    //Ende
+
+    //Augenbrauen
+    let augenbrauen = -1;
+
+    function updateAugenbrauen()
+    {
+        alt.emit("UpdateEyeBrow", augenbrauen);
+    }
+
+    var augenbrauenslider = document.getElementById("eyebrowrange");
+    augenbrauenslider.oninput = function() {
+        augenbrauen = this.value;
+        updateAugenbrauen();
+    }
+    //Ende
+
+    //Alter
+    let alter = -1;
+
+    function updateAlter()
+    {
+        alt.emit("UpdateAlter", alter);
+    }
+
+    var alterslider = document.getElementById("ageingrange");
+    alterslider.oninput = function() {
+        alter = this.value;
+        updateAlter();
+    }
+    //Ende
+
+    //MakeUp
+    let makeup = -1;
+
+    function updateMakeUp()
+    {
+        alt.emit("UpdateMakeUp", makeup);
+    }
+
+    var makeupslider = document.getElementById("makeuprange");
+    makeupslider.oninput = function() {
+        makeup = this.value;
+        updateMakeUp();
+    }
+    //Ende
+
+    //Blush
+    let blush = -1;
+
+    function updateBlush()
+    {
+        alt.emit("UpdateBlush", blush);
+    }
+
+    var blushslider = document.getElementById("blushrange");
+    blushslider.oninput = function() {
+        blush = this.value;
+        updateBlush();
+    }
+    //Ende
+
+    //Blush
+    let lipstick = -1;
+
+    function updateLipstick()
+    {
+        alt.emit("UpdateLipstick", lipstick);
+    }
+
+    var lipstickslider = document.getElementById("lipstickrange");
+    lipstickslider.oninput = function() {
+        lipstick = this.value;
+        updateLipstick();
+    }
+    //Ende
+
+
+    function create(){
+        const arr = [
+        ""+ gender+ "", 
+        parseInt(mother), 
+        parseInt(father),  
+        parseInt(skinColor),
+        parseFloat(shapeMix),
+        parseInt(nasenbreite), 
+        parseInt(nasenhoehe),  
+        parseInt(nasenlaenge),
+        parseInt(nasenbruecke), 
+        parseInt(nasenspitze), 
+        parseInt(nasenbrueckenverschiebung),
+        parseInt(augenbrauenhoehe), 
+        parseInt(augenbrauenbreite),  
+        parseInt(lippen),
+        parseInt(nackenbreite),
+        parseInt(augen),
+        parseInt(haare),
+        parseInt(bart),
+        parseInt(haarfarbe),
+        parseInt(bartfarbe),
+        parseInt(augenfarbe), 
+        parseInt(augenbrauen),
+        parseInt(alter),
+        parseInt(makeup),
+        parseInt(blush),
+        parseInt(lipstick)
+        ];
+
+        alt.emit("TryCreateChar", arr);
+    }
+    </script>
+</html>

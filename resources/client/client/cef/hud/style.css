@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family: 'GilRoyBold';
+  src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoySemiBold';
+  src: url(fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoyExtraBold';
+  src: url(fonts/Gilroy-ExtraBold.ttf);
+}
+  
+::-webkit-scrollbar {
+    display: none;
+}  
+
+body {
+    user-select: none;
+}
+
+.container {
+  position: absolute;
+  width: 39vh;
+  height: 5vh;
+  top: 5vh;
+  right: 1vh;
+  align-items: center;
+  display: flex;
+  width: fit-content;
+  background-color: #252635;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.topbar{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'GilRoyBold', arial;
+  color: white;
+  font-size: 1.7vh;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+  background-color: #171827;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.logo{
+  height: 4vh;
+  margin-top: 0.5vh;
+}
+
+#kills {
+  font-family: 'GilRoyBold', arial;
+  color: white;
+  font-size: 1.7vh;
+  z-index: 999;
+  margin: 1vh;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+
+#money {
+  font-family: 'GilRoyBold', arial;
+  color: white;
+  font-size: 1.7vh;
+  z-index: 999;
+  margin: 1vh;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+
+#deaths {
+  font-family: 'GilRoyBold', arial;
+  color: white;
+  font-size: 1.7vh;
+  z-index: 999;
+  margin: 1vh;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+
+#KDlol {
+  font-family: 'GilRoyBold', arial;
+  color: white;
+  font-size: 1.7vh;
+  z-index: 999;
+  margin: 1vh;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+
+#levellol {
+  font-family: 'GilRoyBold', arial;
+  color: white;
+  font-size: 1.7vh;
+  z-index: 999;
+  margin: 1vh;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+

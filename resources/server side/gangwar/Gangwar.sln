@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gangwar", "Crimelife\Gangwar.csproj", "{1F8994CF-F1C4-4077-B7AE-F0AEB3F535BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C79FA928-1783-4C1A-90DB-75F9CB3FFCC9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F8994CF-F1C4-4077-B7AE-F0AEB3F535BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8994CF-F1C4-4077-B7AE-F0AEB3F535BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8994CF-F1C4-4077-B7AE-F0AEB3F535BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8994CF-F1C4-4077-B7AE-F0AEB3F535BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11D409C6-E221-45E3-9CFA-2B7A1343D110}
+	EndGlobalSection
+EndGlobal

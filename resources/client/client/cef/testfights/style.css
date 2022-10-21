@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'GilRoyBold';
+  src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoySemiBold';
+  src: url(fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'GilRoyExtraBold';
+  src: url(fonts/Gilroy-ExtraBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  user-select: none;
+}
+
+.background {
+  background-image: url(img/unknown.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.fraktextlol {
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 31.8%;
+  font-size: 230%;
+  color:white;
+  width: 57%;
+}
+
+.oberline2 {
+  position: absolute;
+  background-image: linear-gradient(90deg, #3F16B5 0%, #168DB5 100%);
+  transform: translate(-50%, -50%);
+  top: 17%;
+  left: 11.1%;
+  border-radius: 5px;
+  width: 15.4%;
+  height: 0.3%;
+}
+
+.obentext {
+  position: absolute;
+  font-family: 'GilRoySemiBold', arial;
+  transform: translate(-50%, -50%);
+  top: 23%;
+  left: 11.5%;
+  font-size: 16px;
+  color:white;
+  opacity: 50%;
+  width: 16%;
+}
+
+.oderline1 {
+  position: absolute;
+  background-image: linear-gradient(90deg, #0066FF 0%, #168DB5 100%);
+  transform: translate(-50%, -50%);
+  top: 81%;
+  left: 36%;
+  border-radius: 10px;
+  width: 23%;
+  height: 0.5%;
+}
+
+.oderline2 {
+  position: absolute;
+  background-image: linear-gradient(90deg, #0066FF 0%, #168DB5 100%);
+  transform: translate(-50%, -50%);
+  top: 81%;
+  left: 54%;
+  border-radius: 10px;
+  width: 23%;
+  height: 0.5%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.oder{
+  position: absolute;
+  font-family: 'GilRoySemiBold', arial;
+  transform: translate(-50%, -50%);
+  top: 86%;
+  left: 53.7%;
+  width: 10%;
+  height: 14%;
+  font-size: 190%;
+  color:white;
+}
+
+.screen2 {
+  display: none;
+}
+
+.privatfraksbutton {
+  position: absolute;
+  font-family: 'GilRoyExtraBold', arial;
+  background-image: linear-gradient(180deg, #0066FF 0%, #168DB5 100%);;
+  transform: translate(-50%, -50%);
+  top: 87%;
+  left: 51%;
+  border:none;
+  border-radius: 10px;
+  width: 17%;
+  height: 5%;
+  font-size: 113%;
+  color:white;
+}
+
+.privatfraksbutton:hover{
+  background-image: linear-gradient(180deg, #008cff 0%, #16b0b5 100%);;
+}
+
+.privatfraksbutton:focus {
+  outline:none
+}
+
+.madrazo {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 12%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.yardies {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 31%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.grove {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 50%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.aztecas {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 69%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.hoover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 88%;
+  width: 20%;
+  z-index: 99;
+  height: 26%;
+}
+
+.rifa{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 12%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.lostmc{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 31%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.cam {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 50%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.rednecks{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 69%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+.ballas {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 88%;
+  width: 20%;
+  height: 26%;
+  z-index: 99;
+}
+
+#orgapop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 28.82%;
+  left: 14.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#ykzpop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 28.82%;
+  left: 33.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#grovepop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 28.82%;
+  left: 52.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#aztecaspop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 28.9%;
+  left: 71.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#hooverpop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 28.8%;
+  left: 90.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#lcnpop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 54.9%;
+  left: 14.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#lostpop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 54.9%;
+  left: 33.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+
+#triadenpop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 54.8%;
+  left: 52.4%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#bloodspop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 54.7%;
+  left: 71%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
+
+#ballaspop{
+  position: absolute;
+  font-family: 'GilRoyBold', arial;
+  transform: translate(-50%, -50%);
+  top: 54.7%;
+  left: 90.3%;
+  font-size: 120%;
+  color:white;
+  width: 5%;
+  z-index: 99;
+}
